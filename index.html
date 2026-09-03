@@ -171,18 +171,6 @@ section{padding:72px 48px;}
 .ts-num{font-family:'Noto Serif SC',serif;font-size:18px;font-weight:900;color:var(--blue);margin-bottom:5px;line-height:1.2;}
 .ts-label{font-size:11px;color:var(--gray-text);line-height:1.4;}
 
-/* ── 合作伙伴 ── */
-.partner-sec{background:#fff;}
-.partner-intro{text-align:center;font-size:14px;color:var(--gray-text);margin-bottom:32px;max-width:660px;margin-left:auto;margin-right:auto;}
-.partner-grid{display:flex;flex-wrap:wrap;justify-content:center;gap:16px;max-width:900px;margin:0 auto;}
-.partner-item{
-  padding:12px 28px;background:var(--gray-bg);
-  border-radius:6px;border:1px solid var(--gray-line);
-  font-size:15px;font-weight:600;color:var(--dark);
-  transition:all .3s;cursor:default;
-}
-.partner-item:hover{background:var(--blue);color:#fff;border-color:var(--blue);transform:translateY(-2px);}
-
 /* ── 新闻动态 ── */
 .news-sec{background:var(--gray-bg);}
 .news-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;}
@@ -244,7 +232,6 @@ footer{background:#1a2333;padding:24px 48px;text-align:center;}
     <li><a onclick="goTo('advantage')">核心优势</a></li>
     <li><a onclick="goTo('business')">一站式服务</a></li>
     <li><a onclick="goTo('team')">团队实力</a></li>
-    <li><a onclick="goTo('partner')">国际合作</a></li>
     <li><a onclick="goTo('contact')">联系我们</a></li>
   </ul>
   <button class="nav-contact" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">联系我们</button>
@@ -401,19 +388,7 @@ footer{background:#1a2333;padding:24px 48px;text-align:center;}
       <div class="ts-card"><div class="ts-num">30+</div><div class="ts-label">分析测试设备</div></div>
       <div class="ts-card"><div class="ts-num">亚洲</div><div class="ts-label">领先测试平台</div></div>
       <div class="ts-card"><div class="ts-num">24H</div><div class="ts-label">实验室在线服务</div></div>
-      <div class="ts-card"><div class="ts-num">全球</div><div class="ts-label">国际化合作网络</div></div>
     </div>
-  </div>
-</section>
-
-<!-- 国际合作 -->
-<section class="partner-sec" id="partner">
-  <div class="wrap">
-    <div class="sh fi">
-      <h2>国际化合作</h2>
-      <div class="sh-line"></div>
-    </div>
-    <p class="partner-intro fi">与国内外主流半导体企业、科研机构深度合作，构建完善的技术生态体系，保障分析技术的前沿性与服务的稳定性</p>
   </div>
 </section>
 
@@ -456,7 +431,6 @@ footer{background:#1a2333;padding:24px 48px;text-align:center;}
     <a onclick="goTo('advantage')">核心优势</a>
     <a onclick="goTo('business')">服务内容</a>
     <a onclick="goTo('team')">团队实力</a>
-    <a onclick="goTo('partner')">合作伙伴</a>
     <a onclick="goTo('contact')">联系我们</a>
   </div>
   <div class="footer-copy">
